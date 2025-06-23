@@ -21,14 +21,7 @@
     telegram-desktop
     waypaper
     # gthumb
-    # libreoffice
-    # spotify
     # syncthing
-
-    # For games, also see protondb for info on compatibility
-    # lutris # game launcher
-    # heroic # another game launcher but for gog releases
-    # bottles # allows to run .exe files
 
     # Tui
     fastfetch
@@ -38,24 +31,20 @@
     starship
     yazi
 
+    # Just because
+    busybox
+    uutils-coreutils-noprefix
+
     # Cli tools
-    # ripgrep-all
-    # xh
     bat
     brightnessctl
-    busybox
     curl
-    delta
-    dust
     eza
     fd
     fzf
     git
-    home-manager
-    imagemagick
     ripgrep
     stow
-    uutils-coreutils-noprefix
     zoxide
 
     # Lsp
@@ -73,9 +62,12 @@
     alejandra
     prettierd
     stylua
+    isort
+    black
 
-    # Compilers
+    # Compilers & Interpreters
     clang
+    python312
     rustup
   ];
 

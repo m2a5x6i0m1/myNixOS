@@ -1,9 +1,4 @@
-{
-  config,
-  pkgs,
-  inputs,
-  ...
-}: {
+{...}: {
   home = {
     username = "max";
     homeDirectory = "/home/max";

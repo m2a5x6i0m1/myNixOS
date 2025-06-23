@@ -5,7 +5,7 @@
   # Disable tpm
   systemd.tpm2.enable = false;
 
-  # Do not suspend on lid close
+  # Don't suspend on lid close
   services.logind.lidSwitch = "ignore";
 
   # Boot
@@ -20,10 +20,6 @@
       size = 4 * 1024;
     }
   ];
-
-  # Automatic system upgrade
-  # system.autoUpgrade.enable = true;
-  # system.autoUpgrade.dates = "monthly";
 
   # Automatic garbage collect
   nix.gc.automatic = true;
