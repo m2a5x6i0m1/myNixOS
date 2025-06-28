@@ -25,9 +25,7 @@
 
     # Tui
     fastfetch
-    htop
     lazygit
-    nushell
     starship
     yazi
 
@@ -49,14 +47,11 @@
 
     # Lsp
     bash-language-server
-    clang-tools
-    harper
     lua-language-server
+    harper
     nixd
     rust-analyzer
-
-    # Debuggers
-    lldb
+    clang-tools
 
     # Formatters
     alejandra
@@ -66,9 +61,9 @@
     black
 
     # Compilers & Interpreters
-    clang
     python312
     rustup
+    clang
   ];
 
   fonts.packages = with pkgs; [

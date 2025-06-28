@@ -6,8 +6,8 @@
   };
   programs.home-manager.enable = true;
   imports = [
-    ./modules/firefox.nix
-    ./modules/git.nix
-    ./modules/lazygit.nix
+    ./modules/home-manager/firefox.nix
+    ./modules/home-manager/git.nix
+    ./modules/home-manager/lazygit.nix
   ];
 }

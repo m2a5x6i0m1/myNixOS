@@ -1,9 +1,8 @@
 {...}: {
   imports = [
-    ./hardware-configuration.nix
-    ./modules/programs/default.nix
-    ./modules/default.nix
-    ./packages.nix
+    ./modules/nixos/hardware-configuration.nix
+    ./modules/nixos/packages.nix
+    ./modules/nixos/default.nix
   ];
 
   # Allow flakes
@@ -12,5 +11,6 @@
   # Allow proprietary soft
   nixpkgs.config.allowUnfree = true;
 
-  system.stateVersion = "24.11"; # DO NOT CHANGE!
+  # For backwards compatibility
+  system.stateVersion = "24.11";
 }
