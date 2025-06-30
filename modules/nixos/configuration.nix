@@ -1,8 +1,8 @@
 {...}: {
   imports = [
-    ./modules/nixos/hardware-configuration.nix
-    ./modules/nixos/packages.nix
-    ./modules/nixos/default.nix
+    ./hardware-configuration.nix
+    ./packages.nix
+    ./parts
   ];
 
   # Allow flakes

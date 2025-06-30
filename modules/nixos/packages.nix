@@ -44,6 +44,7 @@
     ripgrep
     stow
     zoxide
+    manix
 
     # Lsp
     bash-language-server
