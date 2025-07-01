@@ -13,6 +13,7 @@
     ./system/graphics.nix
     ./system/network.nix
     ./system/nix-settings.nix
+    ./system/security.nix
     ./system/sound.nix
     ./system/swap.nix
     ./system/tweaks.nix
