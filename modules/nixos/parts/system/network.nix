@@ -1,5 +1,5 @@
 {
   # Network
-  networking.hostName = "nixos";
+  networking.hostName = "myNixOS-laptop";
   networking.networkmanager.enable = true;
 }

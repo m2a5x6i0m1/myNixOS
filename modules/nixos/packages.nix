@@ -20,6 +20,7 @@
     pwvucontrol
     telegram-desktop
     waypaper
+    libreoffice
     # gthumb
     # syncthing
 

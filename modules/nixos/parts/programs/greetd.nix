@@ -1,9 +1,4 @@
 {pkgs, ...}: {
-  # Wayland compositor of my choice
-  programs.hyprland.enable = true;
-  programs.hyprlock.enable = true;
-  services.hypridle.enable = true;
-
   # Autologin with Greetd
   services = {
     greetd = {
@@ -20,7 +15,4 @@
       };
     };
   };
-
-  # Status bar
-  programs.waybar.enable = true;
 }
