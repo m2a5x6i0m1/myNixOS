@@ -15,13 +15,13 @@
 
     # Desktop apps
     ghostty
-    neovide
     obsidian
     pwvucontrol
     telegram-desktop
     waypaper
     libreoffice
     # gthumb
+    # neovide
     # syncthing
 
     # Tui
@@ -42,10 +42,11 @@
     fd
     fzf
     git
+    manix
     ripgrep
     stow
+    ventoy
     zoxide
-    manix
 
     # Lsp
     bash-language-server
