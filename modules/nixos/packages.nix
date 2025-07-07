@@ -14,15 +14,18 @@
     hyprsunset
 
     # Desktop apps
+    amberol
     ghostty
+    gthumb
+    neovide
+    obs-studio
     obsidian
+    onlyoffice-desktopeditors
     pwvucontrol
+    qbittorrent
+    syncthing
     telegram-desktop
     waypaper
-    libreoffice
-    # gthumb
-    # neovide
-    # syncthing
 
     # Tui
     fastfetch
@@ -69,10 +72,14 @@
     clang
   ];
 
+  fonts.fontDir.enable = true;
   fonts.packages = with pkgs; [
     nerd-fonts.code-new-roman
     nerd-fonts.jetbrains-mono
     miracode
   ];
-  fonts.fontDir.enable = true;
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "ventoy-1.1.05"
+  ];
 }
