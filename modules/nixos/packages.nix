@@ -18,12 +18,8 @@
     ghostty
     gthumb
     neovide
-    obs-studio
     obsidian
-    onlyoffice-desktopeditors
     pwvucontrol
-    qbittorrent
-    syncthing
     telegram-desktop
     waypaper
 
@@ -48,7 +44,6 @@
     manix
     ripgrep
     stow
-    ventoy
     zoxide
 
     # Lsp
@@ -77,9 +72,5 @@
     nerd-fonts.code-new-roman
     nerd-fonts.jetbrains-mono
     miracode
-  ];
-
-  nixpkgs.config.permittedInsecurePackages = [
-    "ventoy-1.1.05"
   ];
 }

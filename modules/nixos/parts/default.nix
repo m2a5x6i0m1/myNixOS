@@ -1,8 +1,8 @@
 {
   imports = [
     ./programs/firefox.nix
-    ./programs/greetd.nix
     ./programs/hyprland.nix
+    ./programs/ly.nix
     ./programs/neovim.nix
     ./programs/waybar.nix
     ./programs/zshell.nix
