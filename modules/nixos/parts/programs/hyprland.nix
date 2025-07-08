@@ -5,6 +5,6 @@
   services.hypridle.enable = true;
 
   # UWSM
-  programs.uwsm.enable = true;
-  programs.hyprland.withUWSM = true;
+  # programs.uwsm.enable = true;
+  # programs.hyprland.withUWSM = true;
 }
