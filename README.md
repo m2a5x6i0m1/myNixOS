@@ -1,3 +1,0 @@
-## Description
-
-myNixOS config
