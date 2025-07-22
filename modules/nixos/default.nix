@@ -13,7 +13,6 @@
 
     ./programs/firefox.nix
     ./programs/hyprland.nix
-    ./programs/ly.nix
     ./programs/neovim.nix
     ./programs/waybar.nix
     ./programs/zshell.nix

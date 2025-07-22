@@ -14,6 +14,7 @@
     hyprsunset
 
     # Desktop apps
+    ghostty
     kitty
     obsidian
     pwvucontrol
