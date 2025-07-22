@@ -12,6 +12,7 @@
     ./system/users.nix
 
     ./programs/firefox.nix
+    ./programs/greetd.nix
     ./programs/hyprland.nix
     ./programs/neovim.nix
     ./programs/waybar.nix
