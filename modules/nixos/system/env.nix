@@ -1,11 +1,9 @@
 {
-  # Environment Variabeles
+  # Environment Variables
   environment.sessionVariables = rec {
-    TERMINAL = "kitty";
+    TERMINAL = "ghostty";
     EDITOR = "nvim";
     XDG_BIN_HOME = "$HOME/.local/bin";
-    PATH = [
-      "${XDG_BIN_HOME}"
-    ];
+    PATH = [ "${XDG_BIN_HOME}" ];
   };
 }

@@ -1,8 +1,5 @@
+{ inputs, pkgs, ... }:
 {
-  inputs,
-  pkgs,
-  ...
-}: {
   # I use Neovim, btw :)
   programs.neovim = {
     enable = true;

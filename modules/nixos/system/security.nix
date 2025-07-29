@@ -40,7 +40,7 @@
     "net.core.default_qdisc" = "cake";
   };
 
-  boot.kernelModules = ["tcp_bbr"];
+  boot.kernelModules = [ "tcp_bbr" ];
 
   # Don't ask for password for wheel group
   security.sudo.wheelNeedsPassword = false;

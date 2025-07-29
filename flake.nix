@@ -13,19 +13,15 @@
     neovim-nightly-overlay.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = inputs @ {
-    nixpkgs,
-    self,
-    ...
-  }: {
-    nixosConfigurations = {
-      desktop = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        specialArgs = {inherit inputs self;};
-        modules = [
-          ./hosts/desktop/configuration.nix
-        ];
+  outputs =
+    inputs@{ nixpkgs, self, ... }:
+    {
+      nixosConfigurations = {
+        desktop = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          specialArgs = { inherit inputs self; };
+          modules = [ ./hosts/desktop/configuration.nix ];
+        };
       };
     };
-  };
 }

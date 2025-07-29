@@ -3,7 +3,10 @@
   nixpkgs.config.allowUnfree = true;
 
   # Allow Flakes
-  nix.settings.experimental-features = ["nix-command" "flakes"];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   # Automatic Garbage Collect
   nix.gc.automatic = true;
