@@ -1,3 +1,4 @@
+# security tweaks borrowed from @hlissner
 {
   boot.kernel.sysctl = {
     # The Magic SysRq key is a key combo that allows users connected to the
@@ -42,6 +43,14 @@
 
   boot.kernelModules = [ "tcp_bbr" ];
 
-  # Don't ask for password for wheel group
-  security.sudo.wheelNeedsPassword = false;
+  security = {
+    # allow wayland lockers to unlock the screen
+    pam.services.hyprlock.text = "auth include login";
+
+    # userland niceness
+    rtkit.enable = true;
+
+    # don't ask for password for wheel group
+    sudo.wheelNeedsPassword = false;
+  };
 }
