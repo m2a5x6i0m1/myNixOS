@@ -7,7 +7,6 @@
         name = "default";
         isDefault = true;
         settings = {
-          # "browser.startup.homepage" = "https://duckduckgo.com";
           "browser.search.defaultenginename" = "ddg";
           "browser.search.order.1" = "ddg";
 
