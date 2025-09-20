@@ -3,9 +3,9 @@
   gtk = {
     enable = true;
     colorScheme = "dark";
-    theme.name = "catppuccin-mocha-peach-standard";
+    theme.name = "catppuccin-mocha-lavender-standard";
     theme.package = pkgs.catppuccin-gtk.override {
-      accents = [ "peach" ];
+      accents = [ "lavender" ];
       size = "standard";
       variant = "mocha";
     };

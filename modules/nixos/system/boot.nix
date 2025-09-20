@@ -1,10 +1,8 @@
 { pkgs, ... }:
 {
-  # Enable systemd-boot in EFI mode
+  # Fast systemd-boot in EFI mode
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-
-  # Speed up boot (disables ability to modify kernel command on the fly)
   boot.loader.systemd-boot.editor = false;
 
   # Kernel optimized for desktop use

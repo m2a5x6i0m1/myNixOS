@@ -1,7 +1,10 @@
 {
   imports = [
+    ./system/bluetooth.nix
     ./system/boot.nix
-    ./system/env.nix
+    ./system/enviroment-variables.nix
+    ./system/fonts.nix
+    ./system/locale.nix
     ./system/network.nix
     ./system/nix-settings.nix
     ./system/opengl.nix
@@ -13,9 +16,6 @@
     ./programs/greetd.nix
     ./programs/hyprland.nix
     ./programs/neovim.nix
-    ./programs/waybar.nix
-    ./programs/zshell.nix
-
-    ./packages.nix
+    ./programs/shell.nix
   ];
 }
