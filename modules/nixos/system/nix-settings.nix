@@ -8,9 +8,6 @@
     "flakes"
   ];
 
-  # Automatic Garbage Collect
-  nix.gc.automatic = true;
-  nix.gc.dates = "daily";
-  nix.gc.options = "--delete-older-than 1d";
+  # Store will take up less space on disk
   nix.settings.auto-optimise-store = true;
 }

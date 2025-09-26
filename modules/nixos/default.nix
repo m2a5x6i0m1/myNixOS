@@ -16,6 +16,7 @@
     ./programs/greetd.nix
     ./programs/hyprland.nix
     ./programs/neovim.nix
+    ./programs/nh.nix
     ./programs/shell.nix
   ];
 }
