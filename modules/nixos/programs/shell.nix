@@ -5,18 +5,22 @@
 
   # Packages
   environment.systemPackages = with pkgs; [
+    # cargo-seek
+    # manix
+    # navi
     busybox
     curl
     eza
     fd
     fzf
-    gh
     git
     lazygit
-    manix
+    pastel
     ripgrep
+    smassh
     starship
     stow
+    tealdeer
     yazi
     zoxide
   ];
