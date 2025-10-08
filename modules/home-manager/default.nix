@@ -18,6 +18,7 @@
       ./git.nix
       ./lazygit.nix
       ./theming.nix
+      ./notes-sync.nix
     ];
   };
 }
