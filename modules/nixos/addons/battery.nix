@@ -1,4 +1,13 @@
+{ lib, ... }:
 {
+  # This bro is not compatible with auto-cpufreq
+  services.power-profiles-daemon.enable = lib.mkForce false;
+
+  # Better process scheduling
+  services.system76-scheduler.enable = true; # (sacrifices power performance a bit for lower latency)
+  services.system76-scheduler.settings.cfsProfiles.enable = true;
+
+  # Automatic CPU frequency adjustments on the fly
   services.auto-cpufreq.enable = true;
   services.auto-cpufreq.settings = {
     battery = {
@@ -10,11 +19,11 @@
       # Charging thresholds
       enable_thresholds = true;
       start_threshold = 80;
-      stop_threshold = 100;
+      stop_threshold = 90;
     };
     charger = {
-      governor = "performance";
-      platform_profile = "performance";
+      governor = "powersave";
+      platform_profile = "balanced";
       turbo = "auto";
     };
   };
