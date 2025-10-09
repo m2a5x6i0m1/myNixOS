@@ -32,6 +32,7 @@
 
     # Desktop apps
     ghostty
+    libreoffice
     telegram-desktop
   ];
 }
