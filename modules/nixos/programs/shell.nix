@@ -3,6 +3,9 @@
   # Z-shell
   programs.zsh.enable = true;
 
+  # gpg
+  programs.gnupg.agent.enable = true;
+
   # Packages
   environment.systemPackages = with pkgs; [
     # cargo-seek
@@ -13,8 +16,6 @@
     eza
     fd
     fzf
-    git
-    lazygit
     pastel
     ripgrep
     smassh
