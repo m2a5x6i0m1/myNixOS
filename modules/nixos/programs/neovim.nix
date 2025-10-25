@@ -14,6 +14,8 @@
     harper
     nixd
 
+    kdePackages.qtdeclarative
+
     # Formatters
     nixfmt-rfc-style
     prettierd

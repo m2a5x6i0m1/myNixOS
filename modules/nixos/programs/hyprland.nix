@@ -36,5 +36,8 @@
     obsidian
     spotify
     telegram-desktop
+
+    # Fuck it, I'm down it
+    quickshell
   ];
 }
