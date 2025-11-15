@@ -6,5 +6,6 @@
 
     ../../modules/nixos/addons/battery.nix
     ../../modules/nixos/addons/security.nix
+    ../../modules/nixos/addons/games.nix
   ];
 }
