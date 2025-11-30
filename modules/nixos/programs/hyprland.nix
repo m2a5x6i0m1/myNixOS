@@ -31,6 +31,7 @@
 
     # Desktop apps
     ghostty
+    libreoffice
     obsidian
     pwvucontrol
     spotify
